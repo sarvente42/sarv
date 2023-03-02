@@ -12,4 +12,5 @@ int main()
 	sq = length * width;
 	volume = sq * height;
 	cout << volume;
+	return 0;
 }
