@@ -4,13 +4,18 @@ using namespace std;
 
 int main()
 {
-    int x, y;
-    cout << "Enter number 1:";
+    int x;
+    cout << "Enter your number:";
     cin >> x;
-    cout << "Enter number 2:";
-    cin >> y;
-    (x < y) ? cout << "number 1 is min" << endl : cout << "number 2 is min" << endl;
-
+    if (x < 0) {
+        cout << "number is negative";
+    }
+    else if (x > 0) {
+        cout << "number is positive";
+    }
+    else {
+        cout << "number equals 0";
+    }
 
     return 0;
 }
