@@ -2,14 +2,13 @@
 using namespace std;
 int main()
 {
-	int length, width, height, sq, volume;
-	cout << "Length(cm)";
-	cin >> length;
-	cout << "Width(cm)";
-	cin >> width;
-	cout << "Height";
-	cin >> height;
-	sq = length * width;
-	volume = sq * height;
-	cout << volume;
+	int scale, distance, distance_km;
+	cout << "Scale of map->>";
+	cin >> scale;
+	cout << "Distance between cities on the map->>";
+	cin >> distance;
+	cout << "Distance between cities irl->>";
+	distance_km = scale * distance;
+	cout << distance_km;
+	return 0;
 }
