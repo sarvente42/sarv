@@ -4,6 +4,7 @@ int main()
 {
 	int number, first_sum, second_sum;
 	cout << "Enter six-digit number";
+	cin >> number;
 	first_sum = 0;
 	second_sum = 0;
 
